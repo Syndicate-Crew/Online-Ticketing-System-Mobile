@@ -28,7 +28,7 @@ class ProfileScreen extends StatelessWidget {
                 color: Colors.purple.shade400,
               ),
               title: Text(
-                'Username',
+                'Nuwatha MB',
                 style: TextStyle(
                   fontSize: 25.0,
                   fontWeight: FontWeight.bold,
@@ -41,7 +41,7 @@ class ProfileScreen extends StatelessWidget {
                 color: Colors.purple.shade400,
               ),
               title: Text(
-                'First Name',
+                'Maduka',
                 style: TextStyle(
                   fontSize: 20.0,
                   fontWeight: FontWeight.bold,
@@ -54,7 +54,7 @@ class ProfileScreen extends StatelessWidget {
                 color: Colors.purple.shade400,
               ),
               title: Text(
-                'Last Name',
+                'Nuwantha',
                 style: TextStyle(
                   fontSize: 20.0,
                   fontWeight: FontWeight.bold,
@@ -67,7 +67,7 @@ class ProfileScreen extends StatelessWidget {
                 color: Colors.purple.shade400,
               ),
               title: Text(
-                'NIC',
+                '990733880V',
                 style: TextStyle(
                   fontSize: 20.0,
                   fontWeight: FontWeight.bold,

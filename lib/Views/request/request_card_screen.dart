@@ -5,6 +5,16 @@ class RequestCardScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Container(
+      child: SingleChildScrollView(
+        child: Column(
+          children: [
+            Container(
+              child: Text('Request Card'),
+            ),
+          ],
+        ),
+      ),
+    );
   }
 }
