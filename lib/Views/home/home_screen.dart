@@ -40,7 +40,7 @@ class _HomeScreenState extends State<HomeScreen> {
         title: Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text('Syndicate'),
+            Text('Bus App'),
             Icon(Icons.travel_explore),
           ],
         ),

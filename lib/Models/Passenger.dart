@@ -1,15 +1,20 @@
+import 'dart:convert';
+
+Passenger passengerFromJson(String str) => Passenger.fromJson(json.decode(str));
+
 class Passenger {
-  final String passengerId;
-  final String name;
-  final String email;
-  final String nic;
-  final double credit;
+  String passengerId;
+  String name;
+  String email;
 
   Passenger({
     required this.passengerId,
     required this.name,
     required this.email,
-    required this.nic,
-    required this.credit,
   });
+  factory Passenger.fromJson(Map<String, dynamic> json) => Passenger(
+        passengerId: json["_id"],
+        name: json["name"],
+        email: json["email"],
+      );
 }
